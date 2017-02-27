@@ -11,6 +11,9 @@ Multivariate analysis; Propensity Score; Proportional Odds Model; Secondary trai
 ### Requirements
 R (>= 2.14.0), MASS, survey
 
+**<p align="center">
+The software is Coming Soon!
+</p>**
 
 ### Changes
 Version 1.15 - February 28, 2017
