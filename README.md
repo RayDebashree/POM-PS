@@ -4,16 +4,12 @@ POM-PS (proportional odds model adjusted for propensity score) is a novel statis
 Ray, D. and Basu, S. "[A Novel Association Test for Multiple Secondary Phenotypes from a
 Case-Control GWAS](http://onlinelibrary.wiley.com/doi/10.1002/gepi.22045/full)". *Genetic Epidemiology*, 41, 2017. DOI:10.1002/gepi.22045 (in press). 
 
-
 **Key Words:** Case-control design; Cross-phenotype association; GWAS; Joint modeling; Multiple traits;
 Multivariate analysis; Propensity Score; Proportional Odds Model; Secondary traits; Stratification Score
 
+
 ### Requirements
 R (>= 2.14.0), MASS, survey
-
-**<p align="center">
-The software is Coming Soon!
-</p>**
 
 ### Changes
 Version 1.15 - February 28, 2017
