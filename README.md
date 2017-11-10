@@ -2,7 +2,7 @@
 POM-PS (proportional odds model adjusted for propensity score) is a novel statistical approach for testing association of one or more secondary traits with a single genetic marker within the framework of a case-control design. The R function `pomps` implements this association test. For details of this statistical method, please refer/cite:
 
 Ray, D. and Basu, S. "[A Novel Association Test for Multiple Secondary Phenotypes from a
-Case-Control GWAS](http://onlinelibrary.wiley.com/doi/10.1002/gepi.22045/full)". *Genetic Epidemiology*, 41, 2017. DOI:10.1002/gepi.22045 (in press). 
+Case-Control GWAS](http://onlinelibrary.wiley.com/wol1/doi/10.1002/gepi.22045/full)". *Genetic Epidemiology*, 41, 413-426, 2017. DOI:10.1002/gepi.22045. 
 
 **Key Words:** Case-control design; Cross-phenotype association; GWAS; Joint modeling; Multiple traits;
 Multivariate analysis; Propensity Score; Proportional Odds Model; Secondary traits; Stratification Score
