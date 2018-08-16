@@ -103,7 +103,8 @@ p2<-out2$pvalue
 
 4. POM-PS is a single-variant association test, and is not expected to work well for rare variants (i.e., when the variant allele-frequency is very low).
 
-5. Apart from function `pomps()`, this software has other relevant functions such as `getPS()` (for calculating propensity score of an individual given secondary phenotypes, case-control status and other covariates) and `pom.ipw()` (for implementing an inverse-probability-weighted proportional odds regression model). Details of these functions are provided in the attached manual.
+5. Apart from function `pomps()`, this software has other relevant functions such as `getPS()` (for calculating propensity score of an individual given secondary phenotypes, case-control status and other covariates - excluding genetic variants) and `pom.ipw()` (for implementing an inverse-probability-weighted proportional odds regression model). Details of these functions are provided in the attached manual.
+    * Remember: The estimated propensity score using the `getPS()` function needs to be obtained only once for a given GWAS.
     * Caution: While `pomps()` removes missing observations (if any) from the input data, `getPS()` is not programmed to handle missing observations (NA values) and hence we need to provide complete (non-missing) data as input for `getPS()`.
     * Caution: `pom.ipw()` often encounters convergence issues; use with caution.
 
