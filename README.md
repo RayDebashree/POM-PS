@@ -101,6 +101,10 @@ p2<-out2$pvalue
 
 3. The genotype X takes values 0, 1 or 2. For a given sample, if X has only two possible values, a logistic regression (`glm`) is used instead of proportional odds regression (`polr`).
 
-4. Apart from function `pomps()`, this software has other relevant functions such as `getPS()` (for calculating propensity score of an individual given secondary phenotypes, case-control status and other covariates) and `pom.ipw()` (for implementing an inverse-probability-weighted proportional odds regression model). Details of these functions are provided in the attached manual.
+4. POM-PS is a single-variant association test, and is not expected to work well for rare variants (i.e., when the variant allele-frequency is very low).
 
-5. POM-PS currently analyzes secondary phenotypes when the primary trait is binary. For primary trait with three or more ordinal categories, one may employ a proportional odds model for calculating the propensity score.
+5. Apart from function `pomps()`, this software has other relevant functions such as `getPS()` (for calculating propensity score of an individual given secondary phenotypes, case-control status and other covariates) and `pom.ipw()` (for implementing an inverse-probability-weighted proportional odds regression model). Details of these functions are provided in the attached manual.
+    * Caution: While `pomps()` removes missing observations (if any) from the input data, `getPS()` is not programmed to handle missing observations (NA values) and hence we need to provide complete (non-missing) data as input for `getPS()`.
+    * Caution: `pom.ipw()` often encounters convergence issues; use with caution.
+
+6. POM-PS currently analyzes secondary phenotypes when the primary trait is binary. For primary trait with three or more ordinal categories, one may employ a proportional odds model for calculating the propensity score.
