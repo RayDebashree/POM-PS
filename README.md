@@ -11,6 +11,14 @@ Multivariate analysis; Propensity Score; Proportional Odds Model; Secondary trai
 ### Requirements
 R (>= 2.14.0), MASS, survey
 
+
+### How to Install within R
+```{r}
+require(devtools)
+source_url("https://github.com/RayDebashree/POM-PS/blob/master/pomps_v1.15.R?raw=TRUE")
+```
+
+
 ### Changes
 Version 1.15 - February 28, 2017
 > First public release of the software.
